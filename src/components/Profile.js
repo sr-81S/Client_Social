@@ -71,11 +71,11 @@ const Profile = () => {
 
                 const responceData = await responce.json();
                 
-                console.log(responceData);
+                // console.log(responceData);
                 const {_id, name, picture} = responceData;
-                console.log(picture);
-                console.log(name);
-                console.log(_id);
+                // console.log(picture);
+                // console.log(name);
+                // console.log(_id);
                 setProfiePic(picture)
                 setUserId(_id)
                 setUserName(name)

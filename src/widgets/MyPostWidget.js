@@ -26,7 +26,7 @@ const MyPostWidget = ({userId, name, profile}) => {
     try {
       const file = e.target.files[0];
       const image = await resizeFile(file);
-      console.log(image);
+      // console.log(image);
       setPostPicture(image)
     } catch (err) {
       console.log(err);
@@ -98,8 +98,8 @@ const MyPostWidget = ({userId, name, profile}) => {
       theme: "colored",
       });
 
-    console.log("Posts objects");
-    console.log(posts);
+    // console.log("Posts objects");
+    // console.log(posts);
 
   }
 
@@ -119,7 +119,7 @@ const MyPostWidget = ({userId, name, profile}) => {
 
 
 
-      console.log(assendPost);
+      // console.log(assendPost);
 
       setallPosts(assendPost);
      

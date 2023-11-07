@@ -25,7 +25,7 @@ const PostsWidgets = ({userName,postDescription,postUserId,postID}) => {
    const finaldata =  await userDatas.json()
 
    const {picture} = finaldata;
-    console.log("pic is here");
+    // console.log("pic is here");
     // console.log(picture);
     setpostUserImg(picture)
   }
@@ -62,7 +62,7 @@ const PostsWidgets = ({userName,postDescription,postUserId,postID}) => {
   
   }, [])
  
-  console.log(postID);
+  // console.log(postID);
  
   return (
     <div >
