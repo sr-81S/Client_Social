@@ -73,6 +73,9 @@ const Profile = () => {
                 
                 console.log(responceData);
                 const {_id, name, picture} = responceData;
+                console.log(picture);
+                console.log(name);
+                console.log(_id);
                 setProfiePic(picture)
                 setUserId(_id)
                 setUserName(name)
